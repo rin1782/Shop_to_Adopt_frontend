@@ -1,0 +1,7 @@
+implement .catch for errors in fetch requests
+
+const endPoint = "http://localhost:3000/api/v1/pets"
+
+
+append === container.innerHTML += 
+*append will always add on to, not rewrite!
