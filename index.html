@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="outer-node">
-        <div class="second-div">
-          <div>
-            <h1>Shop to Adopt!</h1>
-          </div>
-        </div>
-      </div>
-
-
-    <div id="container">
-        <p>Click on Foster to inquire</p>
+    <div id="greeting">
+      <h1>Shop to Adopt: My Foster Babies</h1>
     </div>
 
-      <script src="src/images.js"></script>
-      <script src="src/index.js"></script>
+
+    <div id="pets-container">
+      <form id="newPetForm">
+        <label>Add Foster:</label><br>
+        <input type="text" placeholder="name">
+        <input type="text" placeholder="desc">
+        <input type="text" placeholder="desc"><br>
+        <input type="submit" value="Add Foster">
+      </form>
+        
+    </div>
+
+    <script src="src/pets.js"></script>
+    <script src="src/index.js"></script>
       
 
   </body>

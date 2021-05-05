@@ -1,10 +1,7 @@
-let outerNode = document.getElementById("outer-node")
-let greeting = outerNode.getElementsByTagName("h1")[0]
-let container = document.getElementById("container")
+const baseUrl = "http://localhost:3000/api/v1/pets"
 
-images.forEach( i => {
-    let img = document.createElement("img")
-    img.src = i 
-    container.append(img)
+document.addEventListener("DOMContentLoaded", () => {
+    getPets()
 })
+
 
